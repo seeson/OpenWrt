@@ -1,4 +1,4 @@
-name: X86_64 OpenWrt
+name: X86_64 OpenWrt New
 
 on:
   workflow_dispatch:
@@ -20,7 +20,6 @@ env:
 jobs:
   Build:
     runs-on: ubuntu-22.04
-    timeout-minutes: 700
 
     steps:
     - name: Check Server Performance
