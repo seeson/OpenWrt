@@ -200,3 +200,5 @@ jobs:
           - ${{ env.COMMIT_DATE }}
           - ${{ env.COMMIT_MESSAGE }}
           - ${{ env.COMMIT_HASH }}
+        draft: false
+        prerelease: false
